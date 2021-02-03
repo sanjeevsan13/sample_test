@@ -1,0 +1,21 @@
+.follow-us-sub-container {
+  background-color: #00bfff;
+  display: flex;
+  color: whitesmoke;
+  padding: 1rem;
+  .dummy {
+    position: absolute;
+    top: 1%;
+    right: 20%;
+    display: flex;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+
+    li {
+      padding-left: 2rem;
+      cursor: pointer;
+    }
+  }
+}

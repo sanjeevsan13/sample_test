@@ -1,0 +1,31 @@
+.state-wise-view-container {
+  max-width: 700px;
+  margin: 2rem auto;
+
+  .view-container {
+    display: grid;
+    grid-template-columns: 0.3fr 0.2fr 0.2fr 0.2fr 0.2fr;
+
+    .heading {
+      background-color: #0080ff;
+      color: whitesmoke;
+    }
+    .state,
+    .confirmed,
+    .active,
+    .recovered,
+    .deceased {
+      padding: 0.5rem 0;
+      border-bottom: solid 0.5px #808080;
+    }
+    .state {
+      border-left: solid 0.5px grey;
+    }
+    .deceased {
+      border-right: solid 0.5px grey;
+    }
+  }
+  .view-container:nth-child(odd) {
+    background-color: whitesmoke;
+  }
+}

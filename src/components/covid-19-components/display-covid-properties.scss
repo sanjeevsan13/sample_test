@@ -1,0 +1,28 @@
+.covid-container {
+  max-width: 900px;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
+  //border: 1px solid red;
+
+  .covid-properties {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    .heading {
+      padding-bottom: 0.5rem;
+      color: #0080ff;
+    }
+    .result {
+      color: brown;
+      font-size: 18px;
+    }
+  }
+}
+.no-result-found {
+  color: red;
+  padding: 0.5rem 0;
+}
+.no-result-found::before {
+  content: "* ";
+}

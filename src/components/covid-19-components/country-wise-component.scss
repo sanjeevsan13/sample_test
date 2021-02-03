@@ -1,0 +1,27 @@
+.formConatiner {
+}
+.dropDown {
+  border: none;
+  border-bottom: 1px solid black;
+  color: black;
+  padding: 0.5rem;
+  margin: 1rem;
+  text-align: center;
+  font-size: 16px;
+}
+.country {
+  font-size: 20px;
+}
+.statee {
+  display: flex;
+  position: absolute;
+  top: 280px;
+  left: 580px;
+  font-size: 20px;
+}
+.statewise {
+  padding-right: 6.5rem;
+}
+.countrywise-button {
+  background-color: black;
+}

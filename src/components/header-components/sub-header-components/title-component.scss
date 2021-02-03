@@ -1,0 +1,17 @@
+.title-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 0;
+  background-color: #0080ff;
+  h1 {
+    color: whitesmoke;
+  }
+
+  .title-subscribe {
+    background-color: orange;
+    border: 0.5 px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+}
